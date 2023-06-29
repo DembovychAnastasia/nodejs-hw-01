@@ -1,6 +1,5 @@
 const fs = require('fs/promises');
-const path = require('node:path');
-// require("colors"); 
+const path = require('node:path')
 const { nanoid } = require("nanoid");
 
 const contactsPath = path.join(__dirname, 'db/contacts.json');
@@ -50,4 +49,3 @@ module.exports = {
   getContactById,
 };
 
-// module.exports = { listContacts };

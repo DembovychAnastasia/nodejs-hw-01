@@ -1,5 +1,3 @@
-console.log('Hello Node js Goit Daria');
-// const {listContacts} = require('./contacts')
 const { listContacts, getContactById, removeContact, addContact } = require('./contacts');
 const { Command } =require('commander');
 
